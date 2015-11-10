@@ -1,0 +1,158 @@
+@font-face{
+    font-family: "Quicksand-Regular";
+    src: url(../fonts/Quicksand_Book.otf);
+}
+
+@font-face{
+    font-family: "Quicksand-Bold";
+    src: url(../fonts/Quicksand_Bold.otf);
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+#logo{
+    margin: 30px 50px;
+ 
+ }
+
+ #top-nav{
+    background-image: url(../img/halftone/halftone-edit.png);
+    padding: 0;
+ }
+
+#intro { 
+    background: 50% 0 fixed; 
+    height: auto;  
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    -webkit-box-shadow: 0px 22px 35px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 22px 35px -13px rgba(0,0,0,0.75);
+    box-shadow: 0px 22px 35px -13px rgba(0,0,0,0.75);
+    padding: 0;
+}
+
+#home-gallery{
+    z-index: 100;
+    position: relative;
+    padding: 0;
+/*    border-top: 8px solid #3fc1c0;
+*/}
+
+.light-blue{
+    background-color: #3fc1c0;
+    height: 6px;
+    padding: 0;
+    width: 100%;
+
+}
+
+.mid-blue{
+    background-color: #36a7a6;
+    height: 9px;
+    width: 100%;
+}
+
+.dark-blue{
+    background-color: #00847f;
+    height: 12px;
+    width: 100%;
+
+}
+
+#home-images{
+    padding: 0;
+}
+
+
+
+#home-images img{
+    width: 100%;
+    padding: 0;
+    height: 100%;
+}
+
+
+
+.color-overlay{
+    position:relative;
+
+}
+
+.color-overlay img{
+    width: 100%;
+    vertical-align: top;
+
+}
+
+
+.color-overlay:after {
+    content: '\A';
+    position: absolute;
+    width: 100%; height:100%;
+    top:0; left:0;
+    background:rgba(63,193,192,0.4);
+    opacity: 0;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+}
+
+.color-overlay:hover:after {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+.col-md-3{
+    padding: 0;
+}
+
+nav ul li{
+    font-family: "Quicksand-Regular";
+    font-size: 16px;
+    float: left;
+    padding-right: 45px;
+    list-style: none;
+    text-transform: uppercase;
+    margin-top: 60px;
+
+}
+
+nav ul li a{
+    font-family: "Quicksand-Regular";
+    text-decoration: none;
+    color: #3fc1c0;
+    
+}
+
+nav ul li a:hover{
+    font-family: "Quicksand-Bold";
+    text-decoration: none;
+    color: #7cc24d;
+    
+}
+
+
+#home { 
+    background: url(../img/above4.jpg) 50% 0 fixed; 
+    height: auto;  
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 200px 0;
+}
+#about { 
+    background: url(../img/above5.jpg) 50% 0 fixed; 
+    height: auto;
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 100px 0;
+    color: #fff;
+}
