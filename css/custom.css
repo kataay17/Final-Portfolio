@@ -95,7 +95,9 @@ body{
     position: absolute;
     width: 100%; height:100%;
     top:0; left:0;
-    background:rgba(63,193,192,0.4);
+/*    background:rgba(63,193,192,0.4);
+*/    opacity: 0;
+    background:rgba(0, 0, 0, 0.4);
     opacity: 0;
     transition: all .5s;
     -webkit-transition: all .5s;
@@ -104,6 +106,17 @@ body{
 .color-overlay:hover:after {
     opacity: 1;
     cursor: pointer;
+}
+
+h3{
+    position:absolute;
+    color: white;
+    margin: auto;
+    text-transform: uppercase;
+    text-align: center; 
+    font-size: 16px;
+    z-index: 500;
+    margin: 0 20%;
 }
 
 
@@ -137,16 +150,67 @@ nav ul li a:hover{
 }
 
 
-#home { 
-    background: url(../img/above4.jpg) 50% 0 fixed; 
+#portfolio-intro{ 
+    background: url(../img/colored-pencilsBW.jpg) 50% 0 fixed no-repeat; 
+    height: auto;  
+    margin: 0; 
+    width: 100%; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 150px 0;
+}
+
+
+
+
+#home .port-logo{
+    width: 250px;
+    position: relative;
+}
+
+#portfolio{
+    background: url(../img/halftone/halftone-edit.png)50% 0 fixed ; 
     height: auto;  
     margin: 0 auto; 
     width: 100%; 
     position: relative; 
     box-shadow: 0 0 50px rgba(0,0,0,0.8);
-    padding: 200px 0;
+    padding: 126px 0;
+
 }
-#about { 
+
+#blue-banner{
+    background-color: #3fc1c0;
+    width: 90%;
+    height:60px;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    padding-bottom: 35px;
+
+
+}
+
+.skill{
+
+/*    border: solid 1px black;
+*/    float: left;
+    padding: 0 50px;
+    text-align: center;
+}
+
+#theTeam { 
     background: url(../img/above5.jpg) 50% 0 fixed; 
     height: auto;
     margin: 0 auto; 
