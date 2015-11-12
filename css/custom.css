@@ -111,12 +111,13 @@ body{
 h3{
     position:absolute;
     color: white;
-    margin: auto;
     text-transform: uppercase;
-    text-align: center; 
     font-size: 16px;
     z-index: 500;
-    margin: 0 20%;
+    bottom: 10px;
+    padding: 0 20px;
+    display: none;
+    font-family: "Quicksand-Regular";
 }
 
 
@@ -126,7 +127,7 @@ h3{
 
 nav ul li{
     font-family: "Quicksand-Regular";
-    font-size: 16px;
+    font-size: 22px;
     float: left;
     padding-right: 45px;
     list-style: none;
@@ -151,7 +152,7 @@ nav ul li a:hover{
 
 
 #portfolio-intro{ 
-    background: url(../img/colored-pencilsBW.jpg) 50% 0 fixed no-repeat; 
+    background: url(../img/colored-pencils.jpg) 50% 0 fixed no-repeat; 
     height: auto;  
     margin: 0; 
     width: 100%; 
@@ -182,6 +183,9 @@ nav ul li a:hover{
 #blue-banner{
     background-color: #3fc1c0;
     width: 90%;
+    border-right: 5px solid #00847f;
+    border-bottom: 5px solid #00847f;
+    border-top:5px solid #00847f;
     height:60px;
     position: absolute;
     padding: 0;
@@ -196,8 +200,9 @@ nav ul li a:hover{
 h2{
     color: white;
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 28px;
     padding-bottom: 35px;
+    font-family: "Quicksand-Bold";
 
 
 }
@@ -208,6 +213,10 @@ h2{
 */    float: left;
     padding: 0 50px;
     text-align: center;
+}
+
+.skill img:hover{
+    cursor: pointer;
 }
 
 #theTeam-intro { 
@@ -281,6 +290,10 @@ h2{
     box-shadow: 10px 10px 9px -7px rgba(0,0,0,0.44);
 }
 
+#teamButton:hover{
+    cursor: pointer;
+}
+
 h4{
     font-family: "Quicksand-Bold";
     color: white;
@@ -289,6 +302,138 @@ h4{
     text-align: center;
     padding-top: 15px;
    
+}
+
+
+/*
+_____________________________________
+
+WEB STYLES 
+_____________________________________
+
+*/
+
+.light-green{
+    background-color: #7cc24d;
+    height: 6px;
+    padding: 0;
+    width: 100%;
+
+}
+
+.mid-green{
+    background-color: #6ba843;
+    height: 9px;
+    width: 100%;
+}
+
+.dark-green{
+    background-color: #578936;
+    height: 12px;
+    width: 100%;
+
+}
+
+#web-gallery{
+    background: url(../img/halftone/halftone-edit.png) ;
+      height: auto;  
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+
+
+}
+
+.project{
+    margin-left: 40px;
+    margin-top: 50px;
+    float:left;
+     width: 100%;
+}
+
+.project img{
+
+    float: left;
+     position: relative;
+     margin-right: 20px;
+}
+
+.project p{
+    font-family: "Quicksand-Bold";
+    font-size: 24px;
+    text-transform: uppercase;
+/*    border: solid black 1px;
+*/    padding: 30px 0;
+    position: relative;
+}
+
+.project img:hover{
+   -webkit-box-shadow: 0px 1px 25px 5px rgba(209,51,39,0.75);
+-moz-box-shadow: 0px 1px 25px 5px rgba(209,51,39,0.75);
+box-shadow: 0px 1px 25px 5px rgba(209,51,39,0.75);
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+
+#contact-intro{
+    background: url(../img/lillies.jpg) 50% 0 fixed no-repeat; 
+    height: 100vh;
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 150px 0;
+    color: #fff;
+}
+
+#contact{
+    background: url(../img/halftone/halftone-edit.png) ;
+    height: 100vh;  
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative;
+}
+
+
+#contact p{
+    font-family: "Quicksand-Regular";
+    color: #444;
+    font-size: 18px;
+    margin-right: 150px;
+}
+
+h5{
+    font-family: "Quicksand-Bold";
+    color: #444;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-right: 150px;
+}
+
+#footer{
+    background-color: #3fc1c0;
+    width: 100%;
+    height: 70px;
+}
+
+#footer p{
+    font-family: "Quicksand-Regular";
+    font-size: 16px;
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#social{
+    position: absolute;
+    padding-top: 15px;
+    padding-right: 20px;
+    right:0;
+}
+
+#social img{
+    margin-right: 20px;
 }
 
 

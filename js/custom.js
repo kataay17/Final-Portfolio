@@ -22,3 +22,31 @@
 //       }); // end window scroll
 //    });  // end section function
 // }); // close out script
+
+
+
+$(document).ready(function(){
+
+
+    $('.color-overlay').hover(function(){
+        $('h3', $(this)).slideToggle(200, 'linear').display(200, 'linear');
+    });
+
+    // $('.skill').hover(function(){
+    //     $('.skill').animate(200, 'linear').display(200, 'linear');
+    // });
+
+   
+
+   
+
+    
+    
+    // $('.color-overlay').hover( 
+    // function () {
+    //     $("h3").animate({ "top": "-=200px" }, "slow" );
+    // },
+    // function () {
+    //     $("h3").animate({ "top": "+=200px" }, "slow" );
+    // });
+});

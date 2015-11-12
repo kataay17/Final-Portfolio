@@ -1,43 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 57.4 57.5" style="enable-background:new 0 0 57.4 57.5;" xml:space="preserve">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-270 372.5 57.4 57.5" style="enable-background:new -270 372.5 57.4 57.5;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#3FC1C0;}
-	.st1{fill:#7C281F;}
-	.st2{fill:#993325;}
-	.st3{fill:#E0C7BA;}
-	.st4{fill:#BF4032;}
-	.st5{fill:#EFD9C5;}
-	.st6{fill:#F9E7D2;}
-	.st7{fill:#FFFFFF;}
-	.st8{fill:none;stroke:#DDC4AF;stroke-width:1.0191;stroke-linecap:round;stroke-miterlimit:10;}
-	.st9{fill:#D35046;}
-	.st10{fill:#D6817B;}
-	.st11{fill:#4D4D4D;}
-	.st12{opacity:0.45;}
+	.st0{fill:#444444;}
 </style>
-<g id="Layer_1">
+<g id="Layer_1_1_">
 	<g>
 		<g>
 			<g>
-				<path d="M53.7,42.9c2.4-4.2,3.7-8.9,3.7-14.1c0-4.4-1-8.7-2.7-12.2H38.5L53.7,42.9z"/>
+				<path class="st0" d="M-216.3,415.4c2.4-4.2,3.7-8.9,3.7-14.1c0-4.4-1-8.7-2.7-12.2h-16.2L-216.3,415.4z"/>
 			</g>
 			<g>
-				<path d="M3.7,14.7C1.3,18.8,0,23.7,0,28.8c0,4.5,1,8.5,2.9,12.5H19L3.7,14.7z"/>
+				<path class="st0" d="M-266.3,387.2c-2.4,4.1-3.7,9-3.7,14.1c0,4.5,1,8.5,2.9,12.5h16.1L-266.3,387.2z"/>
 			</g>
 			<g>
-				<path d="M23,14.3h30.5C49,6.3,40.7,1,31.2,0.2L23,14.3z"/>
+				<path class="st0" d="M-247,386.8h30.5c-4.5-8-12.8-13.3-22.3-14.1L-247,386.8z"/>
 			</g>
 			<g>
-				<path d="M13.3,26.6L28.6,0C18.9,0,10.2,4.9,5.1,12.4L13.3,26.6z"/>
+				<path class="st0" d="M-256.7,399.1l15.3-26.6c-9.7,0-18.4,4.9-23.5,12.4L-256.7,399.1z"/>
 			</g>
 			<g>
-				<path d="M44.3,31.2L29.2,57.4c9.6-0.2,18-5,23.1-12.4L44.3,31.2z"/>
+				<path class="st0" d="M-225.7,403.7l-15.1,26.2c9.6-0.2,18-5,23.1-12.4L-225.7,403.7z"/>
 			</g>
 			<g>
-				<path d="M34.6,43.6H4.1C8.7,51.1,17,56.8,26.6,57.5L34.6,43.6z"/>
+				<path class="st0" d="M-235.4,416.1h-30.5c4.6,7.5,12.9,13.2,22.5,13.9L-235.4,416.1z"/>
 			</g>
 		</g>
 	</g>
