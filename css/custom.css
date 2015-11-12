@@ -210,13 +210,85 @@ h2{
     text-align: center;
 }
 
-#theTeam { 
-    background: url(../img/above5.jpg) 50% 0 fixed; 
+#theTeam-intro { 
+    background: url(../img/cleveland.jpg) 50% 0 fixed no-repeat; 
     height: auto;
     margin: 0 auto; 
     width: 100%; 
     position: relative; 
     box-shadow: 0 0 50px rgba(0,0,0,0.8);
-    padding: 100px 0;
+    padding: 150px 0;
     color: #fff;
 }
+
+#theTeam-intro .team-logo{
+    width: 600px;
+    position: relative;
+}
+
+#theTeam{
+    background: url(../img/halftone/halftone-edit.png)50% 0 fixed ; 
+    height: auto;  
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 126px 0;
+}
+
+#katie{
+    float: left;
+
+}
+
+#hannah{
+    float:right;
+}
+
+
+#katie p{
+    text-align: center;
+    padding-top: 25px;
+}
+
+#hannah p{
+    text-align: center;
+    font-family: "Quicksand-Bold";
+    font-size: 24px;
+    text-transform: uppercase;
+    padding-top: 25px;
+}
+
+#katie p{
+    text-align: center;
+    font-family: "Quicksand-Bold";
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+
+
+#teamButton{
+    width: 300px;
+    height: 100px;
+    background-color: #7cc24d;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border: solid 5px #639a3e;
+     -webkit-box-shadow: 10px 10px 9px -7px rgba(0,0,0,0.44);
+    -moz-box-shadow: 10px 10px 9px -7px rgba(0,0,0,0.44);
+    box-shadow: 10px 10px 9px -7px rgba(0,0,0,0.44);
+}
+
+h4{
+    font-family: "Quicksand-Bold";
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 15px;
+   
+}
+
+
