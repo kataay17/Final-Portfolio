@@ -210,16 +210,28 @@ h2{
 
 }
 
+#skillsList .skill p{
+    font-size: 14px;
+    font-family: "Quicksand-Regular";
+    width: 200px;
+    padding-top: 30px;
+    text-align: left;
+}
+
 .skill{
 
 /*    border: solid 1px black;
 */    float: left;
     padding: 0 50px;
     text-align: center;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
 }
 
 .skill img:hover{
     cursor: pointer;
+    margin-top: 15px;
 }
 
 #theTeam-intro { 
@@ -250,35 +262,59 @@ h2{
 
 #katie{
     float: left;
+    display: none;
 
 }
 
 #hannah{
     float:right;
+    display: none;
+
+}
+
+#katie img{
+    padding-left: 30px;
+
+}
+
+#hannah img {
+    padding-left: 30px;
+
 }
 
 
-#katie p{
-    text-align: center;
-    padding-top: 25px;
-}
 
-#hannah p{
-    text-align: center;
+
+
+#hannah h6{
     font-family: "Quicksand-Bold";
     font-size: 24px;
     text-transform: uppercase;
     padding-top: 25px;
+    text-align: center;
 }
 
-#katie p{
-    text-align: center;
+#katie h6{
     font-family: "Quicksand-Bold";
     font-size: 24px;
     text-transform: uppercase;
+    text-align: center;
+    padding-top: 25px;
 }
 
+#katie p{
 
+    font-family: "Quicksand-Regular";
+    font-size: 14px;
+    width: 275px;
+
+}
+
+#hannah p {
+    font-family: "Quicksand-Regular";
+    font-size: 14px;
+    width: 275px;
+}
 
 #teamButton{
     width: 300px;
@@ -295,6 +331,8 @@ h2{
 
 #teamButton:hover{
     cursor: pointer;
+      background-color:#639a3e;
+      border: 5px solid #7cc24d;
 }
 
 h4{
@@ -392,7 +430,7 @@ box-shadow: 0px 1px 25px 5px rgba(209,51,39,0.75);
 
 #contact{
     background: url(../img/halftone/halftone-edit.png) ;
-    height: 100vh;  
+    height: 100%;  
     margin: 0 auto; 
     width: 100%; 
     padding-top: 70px;
@@ -421,13 +459,37 @@ h5{
 
 }
 
-#contact .form-horizontal{
+#map{
+    z-index: 300;
+    margin-bottom: 100px;
+}
+
+#contact form{
 /*   border: 1px solid black;
 */    position: relative;
     width: 400px;
-    margin-right: 0;
+/*    margin-right: 0;
+*/    z-index: 20;
     float: right;
+    margin-right: 20px;
+    font-family: "Quicksand-Bold";
+    
 
+}
+
+#contact button{
+    background-color:#7cc24d;
+    border: solid 2px #639a3e;
+}
+
+#contact button:hover{
+    cursor: pointer;
+    border: 2px solid #7cc24d;
+    background-color:#639a3e;
+}
+
+#contact .form-group{
+    width: 600px;
 }
 
 
